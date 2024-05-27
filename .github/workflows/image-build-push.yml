@@ -1,9 +1,9 @@
 name: SLSA build
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "v*" # triggers only if push new tag version, like `0.8.4` or else
+  # push:
+  #   tags:
+  #     - "v*" # triggers only if push new tag version, like `0.8.4` or else
 
 permissions: read-all
 env:
